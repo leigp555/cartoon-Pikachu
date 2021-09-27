@@ -6,10 +6,14 @@
 *::after,*::before{
     box-sizing: border-box;
 }
-.contenter{
+img{
+    max-width: 100%;
+}
+.container{
   position: relative;
   margin-top:250px;
 }
+
 
 body{
     background-color: rgb(31, 31, 31);
@@ -476,9 +480,11 @@ body{
     transform: rotate(45deg);
 }
 .img{
+    width: 200px;
     position: absolute;
     top:50px;
-    right: 130px;
+    left: 50%;
+    transform: translateX(100px);
 }
 
 /*# sourceMappingURL=/main.af46ece4.css.map */
